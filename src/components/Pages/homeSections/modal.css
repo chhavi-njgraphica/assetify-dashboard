@@ -1,0 +1,88 @@
+/* Modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    position: relative;
+    background: #4A28812B;
+    color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 30px;
+    height: 85vh;
+    overflow: auto;
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+    border: 1px solid #8260B9;
+    backdrop-filter: blur(35px)
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: none;
+    width: 38px;
+    border-radius: 50%;
+    height: 38px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .modal-overlay h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  
+  .modal-overlay h3 {
+    color: #1337FF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+  }
+
+  .buy-sat-heading {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #fff;
+  }
+    
+  .label-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  @media screen and (max-width:768px) {
+    .modal-content {
+      height: 70vh;
+      overflow: auto;
+      padding: 1.5rem;
+    }
+
+    .token-input-field {
+      flex: 0.8;
+    }
+  }
+
+  @media screen and (min-width:769px) {
+    .token-input-field {
+        flex: 0.9;
+    }
+  }

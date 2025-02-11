@@ -1,0 +1,150 @@
+.contained-blog {
+    padding: 1rem 2rem;
+    border: 1px solid #8260b9;
+    border-radius: 10px;
+    background: linear-gradient(360deg, #321958 -23.6%, #12032B 55.14%);
+}
+
+.blog-heading {
+    font-size: 2.5rem;
+}
+
+.blog-sub-heading {
+    flex: 0.9;
+    font-size: 0.85rem;
+}
+
+.blog-banner-container {
+    padding: 0 5.75rem;
+}
+
+.date-font {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.title-blog-head2 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.para-one {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.short-head {
+    font-size: 1.37rem;
+    font-weight: 600;
+}
+
+.recent-font {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.border-section {
+    border-top: 1px solid #8260B94D;
+}
+
+.cd-text-2 {
+    font-size: 1.18rem;
+    font-weight: 700;
+}
+
+.banner-loreum-heading {
+    background-color: #753DD1;
+    border-radius: 10px;
+    padding: 1.5rem 1.12rem;
+    margin-top: 1rem;
+}
+
+.loreum-heading {
+    font-size: 1.625rem;
+    font-weight: 800;
+}
+
+.fw800 {
+    font-weight: 800;
+}
+
+
+@media screen and (min-width:769px) {
+    .blog-sub-heading {
+        flex: 0.6;
+        font-size: 1rem;
+    }
+
+    .blog-heading {
+        font-size: 4.4rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contained-blog {
+        padding: 1.5rem;
+    }
+
+    .blogs-title-container {
+        margin: 0 1.25rem;
+    }
+
+    .blog-banner-container {
+        padding: 0 1.25rem;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .title-blog-head2 {
+        font-size: 1.75rem;
+    }
+
+    .para-one {
+        font-size: 0.875rem;
+    }
+
+    .loreum-heading {
+        font-size: 1.18rem;
+    }
+
+    .recent-post-section {
+        display: none;
+    }
+
+    .section-img-1 {
+        width: 440px;
+        height: 280px;
+    }
+
+    .section-img-2 {
+        width: 440px !important;
+        height: 285px;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .img-section {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1380px) {
+    .section-img-1 {
+        width: 440px;
+    }
+
+    .section-img-2 {
+        width: 220px;
+    }
+}

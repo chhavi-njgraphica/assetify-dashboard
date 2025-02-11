@@ -1,0 +1,258 @@
+@media (max-width: 768px) {
+  .menu {
+    display: none; /* Hide menu by default on smaller screens */
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .menu-icon {
+    display: flex; /* Show hamburger icon */
+    flex-direction: column;
+  }
+
+  .menu li {
+    padding: 10px 0; /* Adjust padding for mobile */
+  }
+}
+
+.inner-shadow {
+  box-shadow: inset 6px 6px 24px 0px #9747ffb2;
+}
+
+.road-map-slider {
+  height: auto !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.swiper-pagination {
+  display: none !important;
+}
+
+.media-partner-sec .swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .swiper-pagination {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .swiper-pagination {
+    display: flex !important;
+  }
+}
+
+.swiper-pagination {
+  position: relative;
+  bottom: 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet,
+.custom-pagination-dot {
+  width: 12px;
+  height: 12px;
+  background-color: #8260b9;
+  border: 2px solid #6e45e9;
+  border-radius: 50%;
+  margin: 0 6px;
+  transition: background-color 0.3s;
+}
+
+.swiper-pagination-bullet-active,
+.custom-pagination-dot-active {
+  background-color: #6e45e9;
+  border: 2px solid #ffffff;
+  width: 16px;
+  height: 16px;
+}
+
+.swiper-pagination-bullet:hover {
+  background-color: #6e45e9;
+}
+
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.bg-diamond-gradient {
+  background: radial-gradient(circle at 77.73% 73%, #200f56, #9747ff);
+}
+
+.common-btn-color {
+  background: linear-gradient(90deg, #ffffff 0%, #e077ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.shadow-inset-custom {
+  box-shadow: inset 6px 6px 24px 0px #9747ffb2;
+}
+
+.blog-btn {
+  background: radial-gradient(
+    123.63% 269.03% at 77.73% 73%,
+    #200f56 21.04%,
+    #9747ff 100%
+  );
+}
+
+.border-animation {
+  padding: 2px;
+  border-radius: 16px;
+  position: relative;
+  background-image: conic-gradient(
+    from var(--border-gradient-angle) at 50% 50%,
+    transparent,
+    #ffa057 14%,
+    #ffe0c2 15%,
+    transparent 17%
+  );
+  background-size: contain;
+  animation: rotateBG 9s linear infinite;
+}
+
+@media (max-width: 767px) {
+  .border-animation {
+    background-image: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .border-animation {
+    background-image: none;
+  }
+}
+
+@keyframes rotateBG {
+  0% {
+    --border-gradient-angle: 0turn;
+  }
+  100% {
+    --border-gradient-angle: 1turn;
+  }
+}
+
+@property --border-gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  /* margin-left: 30px; */
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+.smart_wallet:after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(360deg, #321958 -23.6%, #12032b 55.14%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+
+.csm-checkbox input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.csm-checkbox label {
+  position: relative;
+  cursor: pointer;
+  color: #d8d8d8;
+  display: flex;
+}
+
+.csm-checkbox label:before {
+  content: "";
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #fff;
+  width: 25px;
+  height: 18px;
+  /* padding: 10px; */
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.csm-checkbox input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 7px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%); /* Start from the bottom (off-screen) */
+  }
+  100% {
+    transform: translateY(0); /* End at the normal position */
+  }
+}
+
+@media (max-width: 767px) {
+
+  .csm-checkbox label:before{
+    width: 30px !important;
+  }
+
+  .slide-up {
+    display: none;
+  }
+  .open {
+    position: absolute;
+    display: grid;
+    top: 25px;
+    left: 0;
+    padding: 10px;
+    opacity: 1;
+    z-index: 99;
+    animation: slideUp 1.5s forwards;
+  }
+}
