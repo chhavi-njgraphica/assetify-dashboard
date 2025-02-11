@@ -49,9 +49,9 @@ const MediaPartners = () => {
                   Partners
                 </span>
               </button>
-              <h3 className="text-white font-extrabold lg:text-[46px] text-[28px] leading-[55px] text-center lg:mt-[18px] lg:mb-[28px] my-4">
+              <h2 className="text-white font-extrabold lg:text-[46px] text-[28px] leading-[55px] text-center lg:mt-[18px] lg:mb-[28px] my-4">
                 Our Media Partners
-              </h3>
+              </h2>
               <div className="container mx-auto px-4">
                 <div className="overflow-hidden">
                   <div className="mb-8">

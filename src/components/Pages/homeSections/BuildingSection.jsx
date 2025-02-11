@@ -39,9 +39,9 @@ const BuildingSection = () => {
                 <span className="common-btn-color">About Assetify</span>
               </button>
 
-              <h3 className="text-[28px] lg:text-[46px] font-extrabold text-white lg:leading-[56.7px] leading-[34.13px]">
+              <h2 className="text-[28px] lg:text-[46px] font-extrabold text-white lg:leading-[56.7px] leading-[34.13px]">
                 What We're Building:
-              </h3>
+              </h2>
 
               <p className="lg:text-[16px] text-[14px] text-white lg:leading-[19.5px] leading-[17.07px] tracking-[0.9px]">
                 Assetify is a next-gen decentralized finance (DeFi) platform
@@ -66,9 +66,12 @@ const BuildingSection = () => {
                 and profitable for everyone.
               </p>
 
-              <button className="lg:self-start rounded-xl border-[1.5px]  border-[#8260B9]  font-semibold text-[18px] bg-[#301881] py-[15px] px-[32px] inner-shadow text-white leading-[21.94px]">
-                Join Now
-              </button>
+              <div className="lg:flex realtive z-10 md:flex gap-4 items-center grid">
+                <button className="lg:self-start relative rounded-xl border-[1.5px]  border-[#8260B9]  font-semibold text-[18px] bg-[#301881] py-[15px] px-[32px] text-white leading-[21.94px] shadow-[0_0_0_4px_#200e3d]">
+                  <div>Join Now</div>
+                  <div class="fancyoutline absolute -top-[6px] -left-[6px] -right-[6px] -bottom-[6px] rounded-[17px] -z-[1] after:absolute after:top-1/2 after:left-1/2 after:w-[20rem] after:h-[20rem] after:-z-[1]"></div>
+                </button>
+              </div>
             </div>
           </div>
         </div>

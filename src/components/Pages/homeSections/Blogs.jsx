@@ -17,9 +17,9 @@ const Blogs = () => (
         <button className="self-start px-[22px] bg-[#301881] py-[10px] rounded-lg text-[14px] font-semibold border border-[#8260b9] shadow-inset-custom leading-[17.07px]">
           <span className="common-btn-color">News</span>
         </button>
-        <h3 className="lg:text-[46px] text-[35px] font-extrabold text-white leading-[56px]">
+        <h2 className="lg:text-[46px] text-[35px] font-extrabold text-white leading-[56px]">
           Our Blog
-        </h3>
+        </h2>
         <Swiper
           modules={[Autoplay]}
           breakpoints={{
@@ -43,9 +43,9 @@ const Blogs = () => (
                 <button className="absolute top-4 left-4 text-[14px] leading-[17.07px] py-[10px] px-[22px] font-semibold rounded-[8px] bg-[#301881] shadow-inset-custom">
                   <span className="common-btn-color">Jan 15</span>
                 </button>
-                <h4 className="text-white text-[22px] font-bold mt-6 leading-[26.82px]">
+                <h3 className="text-white text-[22px] font-bold mt-6 leading-[26.82px]">
                   {blog.title}
-                </h4>
+                </h3>
                 <p className="text-white text-[17px] my-4 font-normal leading-[20.72px]">
                   {blog.description}
                 </p>

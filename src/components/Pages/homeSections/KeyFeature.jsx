@@ -47,12 +47,15 @@ const KeyFeature = () => {
           </button>
 
           <div className="lg:flex lg:justify-between lg:items-center md:flex md:justify-between md:items-center my-5">
-            <h3 className="text-white lg:font-extrabold md:font-extrabold font-bold lg:text-[46px] text-[28px] lg:leading-[55px] md:leading-[40px] leading-[34.13px] text-center">
+            <h2 className="text-white lg:font-extrabold md:font-extrabold font-bold lg:text-[46px] text-[28px] lg:leading-[55px] md:leading-[40px] leading-[34.13px] text-center">
               Key Features
-            </h3>
-            <button className="lg:block md:block hidden self-start py-[15px] px-[32px] rounded-[12px] font-semibold text-[18px] leading-[21.94px] text-white bg-[#301881] border-[1.5px] border-[#8260b9] blog-btn">
-              Buy Now
-            </button>
+            </h2>
+            <div className="realtive z-10">
+              <button className="lg:block md:block hidden relative self-start py-[15px] px-[32px] rounded-[12px] font-semibold text-[18px] leading-[21.94px] text-white bg-[#301881] border-[1.5px] border-[#8260b9] blog-btn shadow-[0_0_0_4px_#432c67]">
+                Buy Now
+                <div class="fancyoutline absolute -top-[6px] -left-[6px] -right-[6px] -bottom-[6px] rounded-[17px] -z-[1] after:absolute after:top-1/2 after:left-1/2 after:w-[20rem] after:h-[20rem] after:-z-[1]"></div>
+              </button>
+            </div>
           </div>
 
           <div className="container mx-auto">

@@ -256,3 +256,21 @@
     animation: slideUp 1.5s forwards;
   }
 }
+
+.fancyoutline{
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+}
+.fancyoutline::after{
+  content: "";
+  background: conic-gradient(transparent 0%, #879eff 40%, transparent 40.1%);
+  animation: rotateButton 4s linear infinite;
+}
+@keyframes rotateButton{
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  100% {
+      transform: translate(-50%, -50%) rotate(1turn);
+  }
+}

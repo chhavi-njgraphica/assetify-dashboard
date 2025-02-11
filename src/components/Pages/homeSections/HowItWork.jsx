@@ -37,9 +37,9 @@ const HowItWork = () => {
             </div>
             <div className="w-full lg:w-1/2 text-white">
               <div className="mb-12 mt-16 xl:mt-0 lg:mt-0 md:mt-0">
-                <h3 className="text-white font-extrabold lg:text-[46px] xl:text-[46px] text-[28px] lg:leading-[55px] text-center lg:text-left md:text-left xl:text-left">
+                <h2 className="text-white font-extrabold lg:text-[46px] xl:text-[46px] text-[28px] lg:leading-[55px] text-center lg:text-left md:text-left xl:text-left">
                   How It Works
-                </h3>
+                </h2>
                 <div className="block xl:hidden md:hidden mt-10 xl:mt-0 lg:mt-0 md:mt-0">
                   <img
                     src={howItWork}

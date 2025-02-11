@@ -57,24 +57,24 @@ const AssetifyToken = () => {
             <button className="self-start px-[22px] bg-[#301881] py-[10px] rounded-lg text-[14px] font-semibold border border-[#8260b9] shadow-inset-custom mb-[18px]">
               <span className="common-btn-color">Token</span>
             </button>
-            <h3 className="text-white font-extrabold lg:text-[46px] text-[28px] lg:leading-[55px] mb-[38px]">
+            <h2 className="text-white font-extrabold lg:text-[46px] text-[28px] lg:leading-[55px] mb-[38px]">
               The Assetify Token ($AST)
-            </h3>
+            </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 border-b-[1px] border-[#8260b9] pb-[28px] mb-[28px]">
               <div>
-                <h4 className="text-2xl font-semibold text-white mb-[16px]">
+                <h3 className="text-2xl font-semibold text-white mb-[16px]">
                   Utility
-                </h4>
+                </h3>
                 <div className="space-y-[10px] ml-4 mb-[20px]">
                   {renderData(utilityData)}
                 </div>
               </div>
 
               <div>
-                <h4 className="text-2xl font-semibold text-white mb-[16px]">
+                <h3 className="text-2xl font-semibold text-white mb-[16px]">
                   Supply Mechanism
-                </h4>
+                </h3>
                 <div className="space-y-[10px] ml-4 mb-[20px]">
                   {renderData(supplyMechanism)}
                 </div>
@@ -82,9 +82,9 @@ const AssetifyToken = () => {
             </div>
 
             <div>
-              <h4 className="lg:text-[24px] text-[20px] font-semibold text-white mb-6">
+              <h3 className="lg:text-[24px] text-[20px] font-semibold text-white mb-6">
                 Distribution Strategy
-              </h4>
+              </h3>
               <img
                 src={astView}
                 alt="AST Distribution"
@@ -94,9 +94,12 @@ const AssetifyToken = () => {
 
             <div className="border-t border-[#8260b9] my-[28px]"></div>
 
-            <button className="self-start px-[32px] md:py-[15px] py-[12px] w-full md:w-auto rounded-xl text-[18px] font-semibold text-white leading-[21.94px] border-[1.5px] border-[#8260b9] bg-diamond-gradient">
-              Buy Now
-            </button>
+            <div className="relative z-10">
+              <button className="self-start relative px-[32px] md:py-[15px] py-[12px] w-full md:w-auto rounded-xl text-[18px] font-semibold text-white leading-[21.94px] border-[1.5px] border-[#8260b9] bg-diamond-gradient shadow-[0_0_0_4px_#12022d]">
+                Buy Now
+                <div class="fancyoutline absolute -top-[6px] -left-[6px] -right-[6px] -bottom-[6px] rounded-[17px] -z-[1] after:absolute after:top-1/2 after:left-1/2 after:w-[20rem] after:h-[20rem] after:-z-[1]"></div>
+              </button>
+            </div>
           </div>
         </div>
       </div>

@@ -58,9 +58,9 @@ const SmartWallet = () => {
                   </span>
                 </button>
 
-                <h3 className="text-[26px] lg:text-[46px] font-extrabold text-white leading-tight my-[18px]">
+                <h2 className="text-[26px] lg:text-[46px] font-extrabold text-white leading-tight my-[18px]">
                   AI-Driven Smart Wallet
-                </h3>
+                </h2>
 
                 <div className="ml-4 mb-[28px]">
                   {[
@@ -109,9 +109,9 @@ const SmartWallet = () => {
                         className="w-10 h-10"
                       />
 
-                      <h4 className="text-[22px] text-white font-semibold leading-[26.82px] mb-[16px] mt-[30px]">
+                      <h3 className="text-[22px] text-white font-semibold leading-[26.82px] mb-[16px] mt-[30px]">
                         {item.title}
-                      </h4>
+                      </h3>
                       <span className="text-[16px] text-white font-normal leading-[19.5px]">
                         {item.description}
                       </span>

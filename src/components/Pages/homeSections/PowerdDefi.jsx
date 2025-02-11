@@ -56,22 +56,24 @@ const PowerdDefi = () => {
         <div className="container mx-auto lg:px-16 px-4">
           <div className="grid items-center grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="flex flex-col gap-5">
-              <h3 className="lg:text-[71px]  text-5xl font-extrabold text-white lg:leading-[81px]  leading-tight">
+              <h1  className="lg:text-[71px]  text-5xl font-extrabold text-white lg:leading-[81px]  leading-tight">
                 <span className="text-[#6E45E9]">AI</span>-Powered DeFi For{" "}
                 <span className="text-[#6E45E9]">Real-World Assets.</span>
-              </h3>
+              </h1>
 
               <p className="text-[18px] text-white lg:font-medium md:font-medium leading-[21.94px]">
                 Simplifying investments with AI, tokenizing real-world assets
                 for everyone - Powered By Assetify
               </p>
 
-              <div className="lg:flex md:flex gap-4 items-center grid">
+              <div className="lg:flex realtive z-10 md:flex gap-4 items-center grid">
                 <button
-                  className="self-start rounded-[12px] relative font-semibold text-[18px] leading-[21.94px] bg-[#301881] border-[1.5px] border-[#8260B9] blog-btn px-[32px] py-[15px] text-white revolution-btn"
+                  className="self-start rounded-[12px] relative font-semibold text-[18px] leading-[21.94px] bg-[#301881] border-[1.5px] border-[#8260B9] blog-btn px-[32px] py-[15px] text-white revolution-btn shadow-[0_0_0_4px_#200e3d]"
                   onClick={handleJoinRevolutionClick}
                 >
-                  Join the Revolution
+                  <div>Join the Revolution</div>
+                  <div class="fancyoutline absolute -top-[6px] -left-[6px] -right-[6px] -bottom-[6px] rounded-[17px] -z-[1] after:absolute after:top-1/2 after:left-1/2 after:w-[20rem] after:h-[20rem] after:-z-[1]"></div>
+
                 </button>
 
                 <button className="lg:self-start justify-center flex gap-3 rounded-[12px] font-semibold text-[18px] leading-[21.94px] border border-[#8260b9] bg-[#13042C]  px-[20px] py-[15px] text-white">

@@ -72,12 +72,15 @@ const Faqs = () => {
           </button>
         </div>
         <div className="lg:flex justify-between items-center my-4">
-          <h3 className="lg:text-[46px] text-[28px] font-extrabold text-white text-center lg:text-start">
+          <h2 className="lg:text-[46px] text-[28px] font-extrabold text-white text-center lg:text-start">
             Frequently Asked Questions
-          </h3>
-          <button className="lg:block hidden rounded-xl bg-[#301881] border-[1.5px] border-[#8260b9] px-[32px] py-[15px] text-white font-semibold text-[18px] blog-btn leading-[21.94px]">
-            Buy Now
-          </button>
+          </h2>
+          <div className="relative z-10">
+            <button className="lg:block relative hidden rounded-xl bg-[#301881] border-[1.5px] border-[#8260b9] px-[32px] py-[15px] text-white font-semibold text-[18px] blog-btn leading-[21.94px] shadow-[0_0_0_4px_#12022d]">
+              Buy Now
+              <div class="fancyoutline absolute -top-[6px] -left-[6px] -right-[6px] -bottom-[6px] rounded-[17px] -z-[1] after:absolute after:top-1/2 after:left-1/2 after:w-[20rem] after:h-[20rem] after:-z-[1]"></div>
+            </button>
+          </div>
         </div>
 
         <div>
